@@ -20,19 +20,30 @@ With myriad possibilities for the instantaneous sharing of scientific research a
 
 How can the contemporary conference format contribute in innovative ways to the sharing of information, the generation of new ideas, and the catalyzing of curiosity? In the age of the Internet, where ideas can so easily be shared, what unique role does the conference space provide? Brainhack, in part, was an answer to the challenge of creating a space which disolved traditional academic hierarchies, structured programs, even predetermined content, to open opportunities for something new to emerge--- to sew seeds of collaboration.
 
-# Main text
+# Introducing Brainhack
 
-With all the laudable efforts that go into conference programming, some of the most thrilling moments for attendees often occur in the unplanned moments of the coffee break. Chance encounters, informal musings, open discussion across academic hierarchies--- while impossible to programme, their probability of occurance can be enhanced through allowing for sufficient time and a conference culture that encourages open interaction.
-
-## Ultimate goals
 - What is brainhack: (explain brainhacks to the uninitiated - this has always been our biggest challenge)
 	- legitimize brainhacks to community and potential partners
 	- encourage participation (make everyone feel invited and as though they can make a real contribution, or at least get something out of it)
 		- but im not a programmer how do can I contribute? 
+
+
+With all the laudable efforts that go into conference programming, some of the most thrilling moments for attendees often occur in the unplanned moments of the coffee break. Chance encounters, informal musings, open discussion across academic hierarchies--- while impossible to programme, their probability of occurance can be enhanced through allowing for sufficient time and a conference culture that encourages open interaction.
+
+## Organizational foundations
+
 - what's happening with brainhack:
 	- differentiate brainhack from other hackathons
 		- principle **collaboration not competition**
     - what are some of the projects that have been performed	
+
+### Hackathons based on collaboration, not competition
+
+
+### Unconference
+
+
+## Future challenges
 - Future of brainhack:
 	- describe types of brainhack events
 	- encourage others to host brainhacks in their own areas
@@ -41,8 +52,6 @@ With all the laudable efforts that go into conference programming, some of the m
 	- variation of the format into a teaching-oriented event?
 
 # Conclusions
-
-
 
 # References
 
