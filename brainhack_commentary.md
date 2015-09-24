@@ -37,6 +37,7 @@ How can a conference uniquely contribute to the sharing of information, the gene
 	- encourage others to host brainhacks in their own areas
 	- series of events that culminate at the OHBM hackathon??
 	- motivate post-conference publications and brainhack thematic series  
+	- variation of the format into a teaching-oriented event?
 
 # Conclusions
 
