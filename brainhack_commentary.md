@@ -25,7 +25,7 @@ How can a conference uniquely contribute to the sharing of information, the gene
 
 ## Ultimate goals
 - What is brainhack: (explain brainhacks to the uninitiated - this has always been our biggest challenge)
-	- legitimize brainhacks to big dogs and funding partners (i.e. OHBM program comittee and supervisors of potential attendees)
+	- legitimize brainhacks to community and potential partners
 	- encourage participation (make everyone feel invited and as though they can make a real contribution, or at least get something out of it)
 		- but im not a programmer how do can I contribute? 
 - what's happening with brainhack:
