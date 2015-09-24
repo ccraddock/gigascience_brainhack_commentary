@@ -36,7 +36,10 @@ With all the laudable efforts that go into conference programming, some of the m
 	- differentiate brainhack from other hackathons
 		- principle **collaboration not competition**
     - what are some of the projects that have been performed	
-
+        - [Mennes et al 2014](http://www.sciencedirect.com/science/article/pii/S1053811914002973) pooled data at brainhack to reach a sample size of N=14,781 in their imaging study of optimization of field of view for maximal brain coverage. 
+        - [Vanderwal et al In Press](http://www.sciencedirect.com/science/article/pii/S1053811915006898) collaboration between a 3D artist and a child psychiatrist to reduce in-scanner motion in resting-state fMRI using a movie specifically tailored for that purpose. 
+        - [Das et al. 2012](http://journal.frontiersin.org/article/10.3389/fninf.2011.00037/abstract) the development team of LORIS, an open-source database system for neuroimaging and phenotypic data, have repeatedly used brainhack as an opportunity to meet and collaborate on new features. 
+ 
 ### Hackathons based on collaboration, not competition
 
 
