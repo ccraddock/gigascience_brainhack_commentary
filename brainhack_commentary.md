@@ -46,10 +46,11 @@ The unconference format constitutes the second structural component of Brainhack
 Following are examples of projects that have previously been initiated at Brainhacks:
 
 - [Mennes et al 2014](http://www.sciencedirect.com/science/article/pii/S1053811914002973) pooled data at brainhack to reach a sample size of N=14,781 in their imaging study of optimization of field of view for maximal brain coverage. 
-- [Vanderwal et al In Press](http://www.sciencedirect.com/science/article/pii/S1053811915006898) collaboration between a 3D artist and a child psychiatrist to reduce in-scanner motion in resting-state fMRI using a movie specifically tailored for that purpose. 
+- [Vanderwal et al In Press](http://www.sciencedirect.com/science/article/pii/S1053811915006898) collaboration between a 3D artist and a child psychiatrist to reduce in-scanner motion in resting-state fMRI using a movie specifically tailored for that purpose. [video link](http://vimeo.com/67962604)
 - [Das et al. 2012](http://journal.frontiersin.org/article/10.3389/fninf.2011.00037/abstract) the development team of LORIS, an open-source database system for neuroimaging and phenotypic data, have repeatedly used brainhack as an opportunity to meet and collaborate on new features. 
-- Toro's braincatalogue.org (*I believe this was conceived at Brainhack, and then received a 100K grant, but I'll verify with Roberto.*)
-
+- Toro's [braincatalogue.org](http://braincatalogue.org)
+- [Daydreaming app](http://daydreaming-the-app.net) 
+- [Multi-center mapping of structural network alterations in autism](http://onlinelibrary.wiley.com/doi/10.1002/hbm.22776/full)
 
 ## Future challenges
 - Future of brainhack:
