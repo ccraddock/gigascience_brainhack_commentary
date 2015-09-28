@@ -43,8 +43,11 @@ With all the laudable efforts that go into conference programming, some of the m
  
 ### Hackathons based on collaboration, not competition
 
+The hackathon format gained prominence in the technology sector by providing a meeting model that targets specific project goals during intense time-limited collaborations. The competitive aspect of the traditional hackathon, while catalyzing advances toward specific techology ends, was determined to run counter to the founding motive of Brainhack of encouraging open, cross-institutional collaboration. Thus, participants have the opportunity to propose projects at [www.brainhack.org](http://www.brainhack.org) prior to the event. 
 
 ### Unconference
+
+The unconference format constitutes the second structural component of Brainhack and provides the opportunity for on-site scheduling of presentations, panels, and discussions. Content can range from project updates and current controversies / methodological challenges, to educational. 
 
 
 ## Future challenges
