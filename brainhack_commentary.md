@@ -53,12 +53,17 @@ Following are examples of projects that have previously been initiated at Brainh
 - [Multi-center mapping of structural network alterations in autism](http://onlinelibrary.wiley.com/doi/10.1002/hbm.22776/full)
 
 ## Future challenges
-- Future of brainhack:
-	- describe types of brainhack events
-	- encourage others to host brainhacks in their own areas
-	- series of events that culminate at the OHBM hackathon??
-	- motivate post-conference publications and brainhack thematic series  
-	- variation of the format into a teaching-oriented event?
+- series of events that culminate at the OHBM hackathon??
+- variation of the format into a teaching-oriented event?
+
+### Distributed events
+- describe types of brainhack events
+
+### Hosting a Brainhack
+- encourage others to host brainhacks in their own areas
+
+### Post-conference publications
+- motivate post-conference publications and brainhack thematic series  
 
 # Conclusions
 
