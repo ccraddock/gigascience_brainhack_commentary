@@ -20,6 +20,8 @@ With myriad possibilities for the instantaneous sharing of scientific research a
 
 How can the contemporary conference format contribute in innovative ways to the sharing of information, the generation of new ideas, and the catalyzing of curiosity? In the age of the Internet, where ideas can so easily be shared, what unique role does the conference space provide? Brainhack, in part, was an answer to the challenge of creating a space which disolved traditional academic hierarchies, structured programs, even predetermined content, to open opportunities for something new to emerge--- to sew seeds of collaboration.
 
+
+
 # Introducing Brainhack
 
 - What is brainhack: (explain brainhacks to the uninitiated - this has always been our biggest challenge)
@@ -27,7 +29,27 @@ How can the contemporary conference format contribute in innovative ways to the 
 	- encourage participation (make everyone feel invited and as though they can make a real contribution, or at least get something out of it)
 		- but im not a programmer how do can I contribute? 
 
-With all the laudable efforts that go into conference programming, some of the most thrilling moments for attendees often occur in the unplanned moments of the coffee break. Chance encounters, informal musings, open discussion across academic hierarchies--- while impossible to programme, their probability of occurance can be enhanced through allowing for sufficient time and a conference culture that encourages open interaction.
+Now in their third year, international and regional Brainhack events bring together brain enthusiasts from a variety of backgrounds to build relationships, learn from one another, and work on projects related to the brain. Brainhacks are unconventional events that adapt concepts from hackathons and unconferences to brain research. Similar to hackathons, Brainhack events primarily involve unstructured time during which participants collaborate intensitvely to complete various projects. But rather than focusing on computer programming, projects at the Brainhack can be completed using a much broader array of methods. Time is also set aside for periodic "unconference" sessions, which involve presentations whose content is dynamicaly determined based on the interests of attendees. This combined model encourages active participation and interaction between attendees and maximizes the relevance of the content.
+
+There is no ideal background, skillset or experience level for Brainhack attendees. Fully translating neuroscience data to knowledge requires expertise that spans the gamut from biology, computer science, engineering, mathematics, neuroanatomy, philosopy, physics, psychiatry, psychology, statistics, art, and many others. The  goal of the Brainhack is to facilitate the cross pollenation of ideas and knowledge across these various disciplines and communities, to accelerate the development of a richer understanding of the brain. In addition to sharing data and tools, attendees can contribute to this agenda in a variety of ways. Philosophical debates about the meanings of cognition, coordinated efforts to manually segment brain images from different species or curate neuroscience literature and helping others understand the subtelties of diagnosing a developmental disorder are all examples of extremely valuable contributions to the Brainhack.  
+
+
+Attendance is open to all brain science disciplines including neuroimaging, EEG, genetics and others.
+
+ Brainhacking is not just about number crunching, its about accelerating the progress of understanding the brain.
+
+
+ Brainhack events more broadly involve projects focused on developing a better understanding of the brain. 
+ 
+ 
+
+
+
+
+
+Engendering 
+
+
 
 ## Organizational foundations
 
