@@ -1,0 +1,314 @@
+%-*- TeX -*- -*- Soft -*-,
+
+\documentclass[11pt]{bmc_article_s50}
+
+\usepackage{amsthm,amsmath}
+\usepackage{siunitx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[utf8]{inputenc}
+\RequirePackage{hyperref}
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{url}
+\urlstyle{rm}
+\usepackage{setspace}
+\usepackage[T1]{fontenc}
+\pagestyle{empty}
+\setlength{\parindent}{0cm}
+\usepackage{ragged2e}
+\justifying
+\singlespace
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+  
+\begin{document}
+
+\title{Brainhack: A collaborative workshop for the open neuroscience community}
+
+\maketitle
+
+\author[1,2*]{R Cameron Craddock}\cor{}\email{ccraddock@nki.rfmh.org}
+\author[3]{Pierre Bellec}\email{pierre.bellec@criugm.qc.ca}
+\author[4]{Daniel S Margulies}\email{margulies@cbs.mpg.de}
+\author[4]{B Nolan Nichols}\email{margulies@cbs.mpg.de}
+
+\address[1]{
+  Computational Neuroimaging Lab, Center for Biomedical Imaging and \\\hspace*{59pt}Neuromodulation, Nathan S. Kline Institute for Psychiatric Research, \\\hspace*{59pt}140 Old Orangeburg Rd, 10962, Orangeburg, New York, USA
+}
+\address[2]{
+  Center for the Developing Brain, Child Mind Institute, 445 Park Ave,\\\hspace*{59pt} 10022, New York, New York, USA
+}
+
+\address[3]{Centre de recherche de l’institut de g\'{e}riatrie de   Montr\'{e}al, Montr\'{e}al, QC, Canada
+}
+
+\address[4]{
+  Max Planck Research Group for Neuroanatomy and Connectivity,\\\hspace*{59pt} Max Planck Institute for Human Cognitive and Brain Sciences, \\\hspace*{59pt} Stephanstraße 1A, 4103, Leipzig, Germany
+}
+
+\address[5]{
+  SRI International, 333 Ravenswood Ave, 94025, Menlo Park,  California, USA
+}
+  
+\address[6]{
+  Department of Psychiatry and Behavioral Sciences, Stanford University,\\\hspace*{59pt} 
+  1265 Welch Road, 94306, Stanford,  California, USA
+}
+
+
+\begin{abstract}
+\emph{Should be no more than 100 words}
+\end{abstract}
+
+
+\keywords{hackathon, unconference, open science, neuroscience, data sharing,
+collaboration}
+
+\emph{Brainhack Commentary}
+\emph{http://www.gigasciencejournal.com/authors/instructions/commentary}
+
+\section{Brainhack}\label{brainhack}
+
+Now in their third year, international and regional Brainhack events bring together brain enthusiasts from a variety of backgrounds to build relationships, learn from one another, and work on projects related to the brain. Brainhacks are unconventional events that adapt concepts from hackathons and unconferences to brain research. Similar to hackathons, Brainhack events primarily involve unstructured time during which participants collaborate intensively to complete various projects. Rather than focusing on computer programming, projects at the Brainhack can be completed using a much broader array of methods. Time is also set aside for periodic ``unconference'' sessions, which involve presentations whose content is dynamically determined based on the interests of attendees. This combined model encourages active participation and interaction between attendees and maximizes the relevance of the content.
+
+There is no ideal background, skill set or experience level for Brainhack attendees. Fully translating neuroscience data to knowledge requires expertise that spans the gamut from biology, computer science, engineering, informatics, mathematics, neuroanatomy, philosophy, physics, psychiatry, psychology, statistics, art, and many others. The goal of the Brainhack is to facilitate the cross pollination of ideas and knowledge across these various disciplines and communities, to accelerate the development of a richer understanding of the brain. In addition to sharing data and tools, attendees can contribute to this agenda in a variety of ways. Philosophical debates about the meanings of cognition, coordinated efforts to manually segment brain images from different species, curating neuroscience literature, or helping others understand the subtleties of diagnosing a developmental disorder are all examples of extremely valuable contributions to the Brainhack.
+
+\section{Hackathons based on collaboration, not
+competition}\label{hackathons-based-on-collaboration-not-competition}
+
+The hackathon format gained prominence in the technology sector by providing a meeting model that targets specific project goals during intense time-limited collaborations. The competitive aspect of the traditional hackathon, while catalyzing advances toward specific technology ends, is contrary to the founding motive of Brainhack, which is to encourage open, cross-institutional and inter-disciplinary collaboration. Rather than subdividing attendees into competitive factions, each of whom are trying to solve the exact same prespecified problem, the ``Brainhack way'' is to encourage attendees to work together in collaborative teams to solve problems of their choosing. In this way we have not only attained solutions to many problems, rather than many solutions to a single problem, but we have built new relationships that will hopefully be productive well into the future.
+
+\subsection{Distributed events}
+
+The Brainhack began as international events that would draw attendees from all over the world to work together in open collaboration. Initial efforts to transfer this model to the local level failed due to fears that local events would not be able to provide enough content to attract attendees. Brainhack Eastern Daylight Time was developed to address these concerns, by organizing several simultaneous events and linking them together to share content. Events were limited to sites in time zones within 1 hour of eastern daylight time to simplify scheduling. This innovative event was extremely successful and drew 150 attendees across 7 sites in 3 countries, and has since been followed by Brainhack Americas, which extended this model to the entirety of North, South and Central America (tables \ref{tab1} and \ref{tab2}).
+
+\subsection{Content}
+
+Previous Brainhack events have spanned one to three days and include a variety of content to make them accessible and fruitful for a wide audience of attendees (see tables \ref{tab1} and \ref{tab2}). The format of the events is not fixed, but varies based on what the local organizing committee deems most salient to attendees. In general, a few different types of content are available at Brainhack events:
+
+\begin{itemize}
+\item
+  \textbf{Meet and great:} Brainhack events begin with a welcome to the hosting facility by the local organizing committee, along with a briefing about the event schedule, procedures, or other information that might be important for the attendees.
+\item
+  \textbf{Ice breaker:} Interaction between attendees is the key to a successful Brainhack event. The ice breaker is an activity to introduce attendees and their interests on one another. One strategy that has been successful is for each attendee, in turn, give their name, their institution, and three words that describe their interests. We have toyed with the idea of a speed-dating paradigm in which attendees pair-up for a brief conversation, after 2 minutes attendees swap partners, and this continues until every pair of attendees has met. This strategy has yet to be implemented at any of the Brainhack events.
+\item
+  \textbf{Ignite talks:} Brainhack's equivalent of keynote sessions, Ignite talks are inspirational talks on the big picture of open brain science that are intended to invigorate the audience and set the agenda for the day. These are ideally short, usually 20 minutes with 10 minutes of questions, and are provided by a luminary in the field.
+\item
+  \textbf{Hacking:} The core of Brainhack is ``open hacking'' sessions during which attendees collaborate together on projects of their choosing. Attendees who have specific project ideas or data that they would like to explore are encouraged to advertise their project at \href{http://www.brainhack.org}{www.brainhack.org} prior to the event. On the opening of the Brainhack event, typically after the ice breaker, attendees pitch their ideas and afterwards mingle with others to organize a project team. Teams work together throughout the remainder of Brainhack and are given the opportunity to present their progress during the wrap-up session at the end of the event.
+\item
+  \textbf{Brainhacking 101:} In response to feedback from previous Brainhack events, an educational track has been added to teach basic software and data analysis skills to researchers who are weak in these areas. The educational track occurs in parallel, and is designed not to interfere, with the hacking track. The track begins with ``Installfest'' sessions during which attendees receive help installing needed software. Afterwards are several hands-on tutorials that cover topics like: using Github, Python programming, using Python to load and visualize neuroimaging data, and performing meta-analyses of scientific literature.
+\item
+  \textbf{Unconference:} Time is set aside for attendees to present on their research or other topics of interest. The agenda for these sessions are determined on-site an hour or two before they are to occur. Attendees who are willing to present add their name to a sign-up sheet and in the event that there are more interested presenters than time, the group is polled to determine which presentations are given time or to extend the amount of time allotted. Instead of unconference sessions, some sites have incorporated ``Data Blitzes'', which is a pre-organized session that provides interested attendees the opportunity to present their research. Brainhack Miami has had a lot of success with this model and has secured funding to award monetary prizes to the best presentations.
+\item
+  \textbf{Wrap-up and feedback:} Brainhack events typically end with a wrap-up session during which project teams describe the progress that they made or give a demo of their results. Afterwards, the local organizers lead a discussion about what worked well with the event, and what should be changed in the future.
+\end{itemize}
+
+\subsection{Brainhack projects}\label{project-examples}
+
+Rather than focusing on a specific problem or toolset, which is common at more standard Hackathons, attendees are encouraged to generate their own projects ideas, and then self-assemble into project teams to work on them. As a consequence, some projects may receive very little interest, whereas another might attract the majority of attendees. In this way, the projects worked at the Brainhack are those that are deemed most interesting to attendees, rather than being pre-specified by the event organizers. This model is more conducive to collaboration than the alternative model of organizing a Hackathon around a challenge or competition. There are of many different alternative models between these two extremes, and we are currently working on building thematic Brainhack events that are focused on bringing researchers together to address specific questions in neuroscience, such as the mechanisms underlying autism spectrum disorders.  
+
+To date, projects that have been completed at Brainhack events have spanned the gamut from students interacting with more experienced researchers to learn about a new data modality or analysis method, inter-disciplinary collaborations to improve data collection for hyper-kinetic populations, the development or optimization of data analysis tools, to testing hypothesis about brain structure using openly shared data. Many of these have led to publication in peer-reviewed journals. At the early events in Leipzig and Paris, attendees have tried to complete an elusive 24 hour experiment, in which experiment design, data collection, and statistical analysis is all performed within 24 hours. Although the ultimate goal has been to collect physiological recordings of brain activity (i.e. fMRI), these experiments have typically focused on behavioral assessments due to lack of time. A poster generated by first 24-hour experiment, which was conducted in Leipzig Germany, won an award for being a crowd favorite at the 2012 Resting State Workshop in Magdeburg, Germany. Following are more examples of projects that have previously been initiated and/or completed at Brainhack evens:
+
+\begin{itemize}
+\item 
+  A child pschyiatrist and a 3D video artist built a collaboration at the 2012 Brainhack and UnConference to develop a movie to be shown to participants during resting-state fMRI scans to reduce head motion in hyperkinetic populations \href{http://vimeo.com/67962604}{(video link)}\cite{vanderwal2015}.
+\item 
+  The \href{http://preprocessed-connectomes-project.github.io/abide}{ABIDE Preprocessing Initiative} is an ongoing project started at the 2012 Brainhack and UnConference to share preprocessed versions of the \href{http://fcon_1000.projects.nitrc.org/indi/abide}{Autism Brain Imaging Data Exchange (ABIDE)} dataset. This project is sharing functional data that have been processed using the \href{http://lfcd.psych.ac.cn/ccs.html}{Connectome Computation System (CCS)}, the \href{http://fcp-indi.github.io}{Configurable Pipeline for the Analysis of Connectomes (C-PAC)}, the \href{http://rfmri.org/DPARSF}{Data Preprocessing Assistant for Resting State fMRI (DPARSF)}, and the \href{https://www.nitrc.org/projects/niak/}{Neuro Imaging Analysis Kit (NIAK)}, as well as, cortical thickness measures extracted from structural data using \href{http://freesurfer.net/}{FreeSurfer}, \href{http://www.bic.mni.mcgill.ca/ServicesSoftware/CIVET}{CIVET}, and \href{http://picsl.upenn.edu/software/ants/}{Advanced Normalization Tools (ANTS)}.
+\item
+  A collaboration started at the 2012 Brainhack and UnConference performed an analysis to identify differences in cortical thickness and structural covariance between individuals who suffer from autism spectrum disorder and healthy controls\cite{Valk2015}.
+\item 
+  A project team at Brainhack 2013 amassed a dataset of 14,781 structural MRI scans to estimate the distribution of brain sizes across individuals for optimizing scan acquisition parameters\cite{Mennes2014}.
+\item 
+  The development team of LORIS, an open-source database system for neuroimaging and phenotypic data, have repeatedly used brainhack as an opportunity to meet and collaborate on new features\cite{Das2012}.
+\item
+  An early version of the \href{http://daydreaming-the-app.net}{Daydreaming app}, an Android application for real-time assessment of users mind-wandering was developed at Brainhack 2013.
+\end{itemize}
+
+\begin{table}[!h]
+\caption{{\bf Brainhack events occurring 2012 - 2013.} The number of attendees for each event are included in parenthesis. $^\star$Local organizers for an event. $^\dagger$Distributed event main organizer.}\label{tab1}
+  \begin{tabular}{L{.1in}L{.1in}L{2.4in}L{2in}L{1.5in}}
+    \hline
+	\\
+    \multicolumn{3}{l}{\textbf{2012 Brainhack and Unconference}} &  & September 1 - 4, 2013  \\
+	& \multicolumn{3}{l}{Ann Arbor, Michigan, USA (77)} \\
+    & & \multicolumn{3}{l}{Host: Max Planck Institute for Human Cognition and Brain Sciences} \\
+    & & \multicolumn{3}{l}{Organizers: Daniel Margulies$^{\star}$, Pierre Bellec, Cameron Craddock, Donald McLaren,} \\
+    & & \multicolumn{3}{l}{\hspace*{25pt}Maarten Mennes}\\
+	\\
+    \multicolumn{3}{l}{\textbf{Brainhack 2013}} & & October 23 - 26, 2013  \\
+	& \multicolumn{3}{l}{Paris, France (77)} \\
+    & & \multicolumn{3}{l}{Host: Laboratoire d'Imagerie Biom\'{e}dicale, Sorbonne Universit\'{e}s, Universit\'{e} Pierre-et- } \\
+    & & \multicolumn{3}{l}{\hspace*{25pt}Marie-Curie, Paris 06, CNRS, INSERM} \\
+    & & \multicolumn{3}{l}{Organizers: Selma Mesmoudi$^{\star}$, Yves Burnod$^{\star}$, Donald McLaren, Cameron Craddock,} \\
+    & & \multicolumn{3}{l}{\hspace*{25pt}Pierre Bellec, Daniel Margulies, Maarten Mennes} \\
+	\\
+    \multicolumn{3}{l}{\textbf{OHBM Hackathon 2014}} & & July 5 - 7, 2014  \\
+	& \multicolumn{3}{l}{Berlin, Germany (77)} \\
+    & & \multicolumn{3}{l}{Host: Organization for Human Brain Mapping } \\
+    & & \multicolumn{3}{l}{Organizers: Daniel Margulies$^{\star}$, Pierre Bellec, Cameron Craddock, Tom Grabowski,} \\
+    & & \multicolumn{3}{l}{\hspace*{25pt}Sean Hill, Nolan Nichols, JB Poline} \\
+	\\
+    \multicolumn{3}{l}{\textbf{Brainhack Eastern Daylight Time}} & & October 18 - 19, 2014  \\
+    & \multicolumn{3}{l}{Ann Arbor, Michigan, USA (77)} \\
+    & & \multicolumn{3}{l}{Host: University of Michigan } \\
+    & & \multicolumn{3}{l}{Organizers: Scott Peltier$^{\star}$, Robert Welsh$^{\star}$} \\
+    & \multicolumn{3}{l}{Boston, Massachusetts, USA (77)} \\
+    & & \multicolumn{3}{l}{Host: Massachusetts Institute of Technology} \\
+    & & \multicolumn{3}{l}{Organizers: Satra Gosh$^{\star}$, Matt Hutchison$^{\star}$, Donald McLaren$^{\star}$} \\
+    & \multicolumn{3}{l}{Miami, Florida, USA (77)} \\
+    & & \multicolumn{3}{l}{Host: Florida International University} \\
+    & & \multicolumn{3}{l}{Organizers: Angie Laird$^{\star}$, Lucina Uddin$^{\star}$} \\
+    & \multicolumn{3}{l}{New York, New York, USA (77)} \\
+    & & \multicolumn{3}{l}{Host: Child Mind Institute and Columbia University} \\
+    & & \multicolumn{3}{l}{Organizers: Cameron Craddock$^{\star\dagger}$, Andrew Gerber$^{\star}$} \\
+    & \multicolumn{3}{l}{Porto Alegre, Brazil (77)} \\
+    & & \multicolumn{3}{l}{Host: Pontif\'{i}cia Universidade Cat\'{o}lica do Rio Grande do Sul} \\
+    & & \multicolumn{3}{l}{Organizers: Alex Franco$^{\star}$, Caroline Fr\"{o}hlich$^{\star}$, Felipe Meneguzzi$^{\star}$} \\
+    & \multicolumn{3}{l}{Toronto, Ontario, Canada (77)} \\
+    & & \multicolumn{3}{l}{Host: University of Toronto} \\
+    & & \multicolumn{3}{l}{Organizers: Jonathan Downer$^{\star}$, Katie Dunlop $^{\star}$, Stephen Strother$^{\star}$} \\
+    & \multicolumn{3}{l}{Washington DC, USA (77)} \\
+    & & \multicolumn{3}{l}{Host: Georgetown University} \\
+    & & \multicolumn{3}{l}{Organizers: John Van Meter$^{\star}$, Lei Liew$^{\star}$, Ziad Saad$^{\star}$, Prantik Kundu$^{\star}$} \\
+	\\
+	\hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[!h]
+\caption{{\bf Brainhack events in 2015.} The number of attendees for each event are included in parenthesis. $^\star$Local organizers for an event. $^\dagger$Distributed event main organizer.}\label{tab2}
+  \begin{tabular}{L{.1in}L{.1in}L{2.4in}L{2in}L{1.5in}}
+    \hline
+	\\
+    \multicolumn{3}{l}{\textbf{OHBM Hackathon 2015}} & & June 12 - 14, 2015  \\
+	& \multicolumn{3}{l}{Honolulu, Hawaii, USA (77)} \\
+    & & \multicolumn{3}{l}{Host: Organization for Human Brain Mapping } \\
+    & & \multicolumn{3}{l}{Organizers: Nolan Nichols$^{\star}$, Pierre Bellec, Cameron Craddock, Tom Grabowski,} \\
+    & & \multicolumn{3}{l}{\hspace*{25pt}Jack Van Horn, Daniel Margulies, JB Poline} \\
+	\\
+    \multicolumn{3}{l}{\textbf{Brainhack Montreal 2015}} & & July 27 - 29, 2015 \\
+	& \multicolumn{3}{l}{Montr\'{e}al, Queb\'{e}c, Canada (77)} \\
+    & & \multicolumn{3}{l}{Host: Centre de recherche de l'Institut universitaire de g\'{e}riatrie de Montr\'{e}al} \\
+    & & \multicolumn{3}{l}{Organizers: Benjamin De Leener$^{\star}$, Julien Cohen-Adad$^{\star}$, Pierre Bellec$^{\star}$} \\
+    & & \multicolumn{3}{l}{\hspace*{25pt}Sebastien Dery$^{\star}$, Pierre-Olivier Quirion$^{\star}$} \\
+	\\
+    \multicolumn{3}{l}{\textbf{Brainhack Americas}} & & October 23 - 25, 2015  \\
+    & \multicolumn{3}{l}{Ann Arbor, Michigan, USA (77)} \\
+    & & \multicolumn{3}{l}{Host: University of Michigan } \\
+    & & \multicolumn{3}{l}{Organizers: Scott Peltier$^{\star}$, Robert Welsh$^{\star}$} \\
+	
+    & \multicolumn{3}{l}{Berkeley, California, USA (77)} \\
+    & & \multicolumn{3}{l}{Host: D-Lab, University of California, Berkeley} \\
+    & & \multicolumn{3}{l}{Organizers: Daniel Lurie$^{\star}$, JB Poline$^{\star}$} \\
+	
+    & \multicolumn{3}{l}{Los Angeles, California, USA (77)} \\
+    & & \multicolumn{3}{l}{Host: University of Southern California} \\
+    & & \multicolumn{3}{l}{Organizers: Lei Liew$^{\star}$, Gautam Prasad$^{\star}$, Yonggang Shi$^{\star}$} \\
+	
+    & \multicolumn{3}{l}{Miami, Florida, USA (77)} \\
+    & & \multicolumn{3}{l}{Host: University of Miami} \\
+    & & \multicolumn{3}{l}{Organizers: Angie Laird$^{\star}$, Lucina Uddin$^{\star}$} \\
+	
+    & \multicolumn{3}{l}{New York, New York, USA (77)} \\
+    & & \multicolumn{3}{l}{Host: Translational \& Molecular Imaging Institute, Icahn School of Medicine} \\
+	& & \multicolumn{3}{l}{\hspace*{25pt}at Mount Sinai and Child Mind Institute} \\
+    & & \multicolumn{3}{l}{Organizers: Cameron Craddock$^{\dagger}$, Christopher Cannistraci$^{\star}$, Prantik Kundu$^{\star}$,} \\
+	& & \multicolumn{3}{l}{\hspace*{25pt}David O'Connor, Ting Xu} \\
+	
+    & \multicolumn{3}{l}{Porto Alegre, Brazil (77)} \\
+    & & \multicolumn{3}{l}{Host: Pontif\'{i}cia Universidade Cat\'{o}lica do Rio Grande do Sul} \\
+    & & \multicolumn{3}{l}{Organizers: Alex Franco$^{\star}$, Felipe Meneguzzi$^{\star}$} \\
+	
+    & \multicolumn{3}{l}{Quer\'{e}taro, M\'{e}xico (77)} \\
+    & & \multicolumn{3}{l}{Host: Instituto De Neurobiolog\'{i}a, Universidad Nacional Aut\'{o}noma de M\'{e}xico} \\
+    & & \multicolumn{3}{l}{Organizers: Sarael Alcauter$^{\star}$, Fernando Barrios$^{\star}$, Cameron Craddock$^{\dagger}$,}\\
+	& & \multicolumn{3}{l}{\hspace*{25pt}Eric H Pasaye$^{\star}$} \\
+	
+    & \multicolumn{3}{l}{Seattle, Washington, USA (77)} \\
+    & & \multicolumn{3}{l}{Host: University of Washington eScience Institute} \\
+    & & \multicolumn{3}{l}{Organizers: Ariel Rokem$^{\star}$} \\
+	\\
+	\hline
+	\end{tabular}
+\end{table}
+
+\subsection{Future challenges}\label{future-challenges}
+
+\begin{itemize}
+\tightlist
+\item
+  series of events that culminate at the OHBM hackathon??
+\item
+  variation of the format into a teaching-oriented event?
+\end{itemize}
+
+\subsubsection{Distributed events}\label{distributed-events}
+
+\begin{itemize}
+\tightlist
+\item
+  describe types of brainhack events
+\end{itemize}
+
+\subsubsection{Hosting a Brainhack}\label{hosting-a-brainhack}
+
+\begin{itemize}
+\tightlist
+\item
+  encourage others to host brainhacks in their own areas
+\end{itemize}
+
+\subsubsection{Post-conference
+publications}\label{post-conference-publications}
+
+\begin{itemize}
+\tightlist
+\item
+  motivate post-conference publications and brainhack thematic series
+\end{itemize}
+
+\section{Conclusions}\label{conclusions}
+
+%\theendnotes
+
+\section*{Availability of Supporting Data}
+More information about this project can be found at: \url{http://github.com/ccraddock/afni}. Further data and files supporting this project are hosted in the \emph{GigaScience} repository REFXXX.
+
+\section*{Competing interests}
+None
+
+\section*{Author's contributions}
+RCC and DJC wrote the software, DJC performed tests, and DJC and RCC
+wrote the report.
+
+\section*{Acknowledgements}
+The authors would like to thank the organizers and attendees of
+Brainhack MX and the developers of AFNI. This project was funded in part
+by a Educational Research Grant from Amazon Web Services.
+
+  
+  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                  The Bibliography                       %%
+%%                                                         %%
+%%  Bmc_mathpys.bst  will be used to                       %%
+%%  create a .BBL file for submission.                     %%
+%%  After submission of the .TEX file,                     %%
+%%  you will be prompted to submit your .BBL file.         %%
+%%                                                         %%
+%%                                                         %%
+%%  Note that the displayed Bibliography will not          %%
+%%  necessarily be rendered by Latex exactly as specified  %%
+%%  in the online Instructions for Authors.                %%
+%%                                                         %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% if your bibliography is in bibtex format, use those commands:
+\bibliographystyle{bmc-mathphys} % Style BST file
+\bibliography{brainhack-commentary} % Bibliography file (usually '*.bib' )
+
+\end{document}
