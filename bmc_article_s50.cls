@@ -32,7 +32,6 @@
 \setcounter{bmc@correspondingauthor}{0} %never changes
 \newcounter{bmc@emailcounter} \setcounter{bmc@emailcounter}{0}
 
-
 % Corresponding Authors.
 % adds an asterisk * as a marker.
 \def\correspondingauthor{$^*$}
