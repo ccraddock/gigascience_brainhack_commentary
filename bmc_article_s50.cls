@@ -61,7 +61,7 @@
     {\hspace*{56pt}$^*$Corresponding author\\}}
 
 \newcommand\address[2][]{\relax
-    {\hspace*{56pt}$^#1$#2}\vspace*{7pt}\\}
+    {\hspace*{56pt}$^{#1}$#2}\vspace*{7pt}\\}
     
 % reformats abstract to BMC looks 
 \let\old@abstract\abstract 
